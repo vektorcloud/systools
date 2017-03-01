@@ -1,0 +1,13 @@
+curl
+bash
+
+strace
+bind-tools
+sysstat
+procps
+psutils
+
+htop
+iftop
+iotop
+atop
