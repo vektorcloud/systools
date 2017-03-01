@@ -1,0 +1,14 @@
+#!/bin/bash
+
+[[ $# < 1 ]] && {
+  echo "usage: ./attach <CONTAINER NAME OR ID>"
+  exit 0
+}
+
+cid=$1
+shift
+docker run -ti --pid=container:${cid} \
+               --net=container:${cid}\
+               --cap-add sys_admin \
+               --cap-add sys_ptrace \
+               quay.io/vektorcloud/systools:latest $@
