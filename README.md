@@ -1,5 +1,7 @@
 # systools
 
+![circleci][circleci]
+
 Collection of system tools for debugging and inspection
 
 ## Usage
@@ -18,3 +20,5 @@ To launch a command directly, simply add it as an argument to `attach`:
 ```bash
 ./attach <container-name> htop
 ```
+
+[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/systools.svg "systools"
