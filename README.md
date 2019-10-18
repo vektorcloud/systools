@@ -21,4 +21,4 @@ To launch a command directly, simply add it as an argument to `attach`:
 ./attach <container-name> htop
 ```
 
-[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/systools.svg "systools"
+[circleci]: https://img.shields.io/circleci/build/gh/vektorcloud/systools?color=1dd6c9&logo=CircleCI&logoColor=1dd6c9&style=for-the-badge "systools"
