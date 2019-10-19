@@ -1,6 +1,6 @@
 # systools
 
-![circleci][circleci]
+[![circleci][circleci]](https://circleci.com/gh/vektorcloud/systools)
 
 Collection of system tools for debugging and inspection
 
